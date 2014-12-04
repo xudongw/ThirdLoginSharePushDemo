@@ -1,0 +1,46 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+        
+        <Button 
+            android:id="@+id/login_sina"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="新浪微博登陆"/>
+        <Button 
+            android:id="@+id/login_qq"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="qq登陆"/>
+        <Button 
+            android:id="@+id/login_wx"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="微信登陆"/>
+        
+        <Button 
+            android:id="@+id/logout_sina"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="新浪微博注销"/>
+        <Button 
+            android:id="@+id/logout_qq"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="qq注销"/>
+        <Button 
+            android:id="@+id/logout_wx"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="微信注销"/>
+        
+    </LinearLayout>
+
+</ScrollView>
